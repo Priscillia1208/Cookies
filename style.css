@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+container {
+    width: 80%;
+}
+
+body {
+    margin: 15px;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -45,10 +53,38 @@ form {
     padding-top: 20px;
 }
 
-input {
-    padding-top: ;
-}
 
 label {
     display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btn-creer {
+    margin-right: 10px;
+}
+
+.newDivCookie {
+    width: 150px;
+    height: auto;
+    background: lightgray;
+    box-shadow: -1px 3px 8px 5px #1F87FF;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton {
+    width: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+
 }
